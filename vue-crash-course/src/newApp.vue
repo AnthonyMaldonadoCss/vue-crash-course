@@ -15,18 +15,20 @@
         <!-- <CustomerIndex/> -->
         <!-- <EmployeeIndex/> -->
         <!-- <CounterIndex/> -->
-        <GreetingsIndex/>
+        <!-- <GreetingsIndex/> -->
+        <RegisterIndex/>
     </div>
 </template>
 
 <script>
 // import CounterIndex from './components/Counter.vue'
-import GreetingsIndex from './components/Greeting.vue'
+// import GreetingsIndex from './components/Greeting.vue'
 // import CustomerIndex from '@/components/Customer.vue'
 // import EmployeeIndex from './components/Employee.vue'
+import RegisterIndex from './components/Register.vue'
 export default {
   name: 'App',
-  components: {GreetingsIndex}
+  components: {RegisterIndex}
 }
 </script>
 
