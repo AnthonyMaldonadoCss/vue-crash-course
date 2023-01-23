@@ -13,19 +13,20 @@
         <!-- <CustomerIndex name="Heczaid" age="27" designation="Bioanalista" /> -->
         <!-- <CustomerIndex/> -->
         <!-- <CustomerIndex/> -->
-        <EmployeeIndex/>
+        <!-- <EmployeeIndex/> -->
+        <!-- <CounterIndex/> -->
+        <GreetingsIndex/>
     </div>
 </template>
 
 <script>
+// import CounterIndex from './components/Counter.vue'
+import GreetingsIndex from './components/Greeting.vue'
 // import CustomerIndex from '@/components/Customer.vue'
-import EmployeeIndex from './components/Employee.vue'
+// import EmployeeIndex from './components/Employee.vue'
 export default {
   name: 'App',
-  components: {
-    // CustomerIndex,
-    EmployeeIndex
-  }
+  components: {GreetingsIndex}
 }
 </script>
 
