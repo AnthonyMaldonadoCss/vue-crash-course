@@ -19,7 +19,6 @@
     </div>
 </template>
 
-
 <script>
 export default ({
     name: 'EmployeeIndex',
@@ -33,8 +32,6 @@ export default ({
             }
         }
     },
-    props: {
-        
-    }
+    props: {}
 })
 </script>

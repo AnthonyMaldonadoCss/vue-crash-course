@@ -16,7 +16,8 @@
         <!-- <EmployeeIndex/> -->
         <!-- <CounterIndex/> -->
         <!-- <GreetingsIndex/> -->
-        <RegisterIndex/>
+        <!-- <RegisterIndex/> -->
+        <AuthUserIndex/>
     </div>
 </template>
 
@@ -25,10 +26,11 @@
 // import GreetingsIndex from './components/Greeting.vue'
 // import CustomerIndex from '@/components/Customer.vue'
 // import EmployeeIndex from './components/Employee.vue'
-import RegisterIndex from './components/Register.vue'
+// import RegisterIndex from './components/Register.vue'
+import AuthUserIndex from './components/AuthUser.vue'
 export default {
   name: 'App',
-  components: {RegisterIndex}
+  components: {AuthUserIndex}
 }
 </script>
 
